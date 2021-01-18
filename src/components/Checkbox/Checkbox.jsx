@@ -43,9 +43,16 @@ const Checkbox = ({ label, checked, onChange }) => {
     <StyledCheckbox>
       <div className="checkbox">
         <span className="checkmark" />
-        <input checked={checked} className="checkbox" type="checkbox" onChange={onChange} />
+        <input
+          checked={checked}
+          className="checkbox"
+          type="checkbox"
+          onChange={onChange}
+        />
       </div>
-      <label className="label">{label}</label>
+      <label htmlFor={label} className="label">
+        {label}
+      </label>
     </StyledCheckbox>
   );
 };
