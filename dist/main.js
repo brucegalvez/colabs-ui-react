@@ -1079,7 +1079,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  display: flex;\n  align-items: center;\n  border: 1px solid red;\n  .checkbox {\n    position: relative;\n    height: 1.5rem;\n    width: 1.5rem;\n    margin-right: 0.75rem;\n    input {\n      position: absolute;\n      cursor: pointer;\n      height: 1.25rem;\n      width: 1.25rem;\n      border-radius: 0.25rem;\n    }\n    .checkmark {\n      position: absolute;\n      opacity: 0;\n      top: 0;\n      left: 0;\n      height: 1.5rem;\n      width: 1.5rem;\n      background-color: #fff;\n      border-radius: 0.25rem;\n      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);\n    }\n    input:checked ~ .checkmark {\n      background-color: #1171fa;\n    }\n  }\n  label {\n    font-size: 1rem;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  display: flex;\n  align-items: center;\n  border: 1px solid blue;\n  .checkbox {\n    position: relative;\n    height: 1.5rem;\n    width: 1.5rem;\n    margin-right: 0.75rem;\n    input {\n      position: absolute;\n      cursor: pointer;\n      height: 1.25rem;\n      width: 1.25rem;\n      border-radius: 0.25rem;\n    }\n    .checkmark {\n      position: absolute;\n      opacity: 0;\n      top: 0;\n      left: 0;\n      height: 1.5rem;\n      width: 1.5rem;\n      background-color: #fff;\n      border-radius: 0.25rem;\n      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);\n    }\n    input:checked ~ .checkmark {\n      background-color: #1171fa;\n    }\n  }\n  label {\n    font-size: 1rem;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;

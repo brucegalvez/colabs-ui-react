@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const StyledCheckbox = styled.div`
   display: flex;
   align-items: center;
-  border: 1px solid red;
+  border: 1px solid blue;
   .checkbox {
     position: relative;
     height: 1.5rem;
