@@ -42,7 +42,7 @@ module.exports = {
       new TerserPlugin({
         parallel: true,
         // Enable file caching
-        cache: true,
+        // cache: true,
       }),
     ],
     splitChunks: {

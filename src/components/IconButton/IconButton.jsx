@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import ButtonBase from '../ButtonBase/ButtonBase';
+import defaultTheme from '../../theme';
 
 const StyledIconButton = styled.span`
   width: 2rem;
@@ -38,6 +39,8 @@ const IconButton = ({ children, onClick, color, size, variant }) => {
     </ButtonBase>
   );
 };
+
+StyledIconButton.defaultProps = { theme: defaultTheme };
 
 IconButton.propTypes = {
   children: PropTypes.element.isRequired,

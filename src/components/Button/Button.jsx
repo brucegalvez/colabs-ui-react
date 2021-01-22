@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import ButtonBase from '../ButtonBase/ButtonBase';
+import defaultTheme from '../../theme';
 
 const StyledButton = styled.div`
   width: 100%;
-  height: 100%;
   white-space: nowrap;
   padding: 0 1rem;
   font-family: ${({ theme }) => theme.font.main.regular};
@@ -74,6 +74,8 @@ const Button = ({
     </ButtonBase>
   );
 };
+
+StyledButton.defaultProps = { theme: defaultTheme };
 
 Button.propTypes = {
   text: PropTypes.string,
