@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import defaultTheme from '../../theme';
 
 const StyledButtonBase = styled.div`
   position: relative;
@@ -15,7 +16,8 @@ const StyledButtonBase = styled.div`
     size === 'lg'
       ? 'height: 3rem; border-radius: 1.5rem; font-size: 1.1rem;'
       : 'height: 2.25rem; border-radius: 1.125rem; font-size: 0.9rem;'};
-  ${({ theme, disable }) => (disable ? theme.elevation.sm : theme.elevation.md)};
+  ${({ theme, disable }) =>
+    disable ? theme.elevation.sm : theme.elevation.md};
   :active {
     ${({ theme, disable }) => (disable ? '' : theme.elevation.sm)};
   }
@@ -35,6 +37,8 @@ const ButtonBase = ({ children, disable, size, onClick, fullWidth }) => {
     </StyledButtonBase>
   );
 };
+
+StyledButtonBase.defaultProps = { theme: defaultTheme };
 
 ButtonBase.propTypes = {
   children: PropTypes.element.isRequired,

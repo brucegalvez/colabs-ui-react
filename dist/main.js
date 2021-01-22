@@ -781,9 +781,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_array_slice__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_slice__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../theme */ "./src/theme.js");
 
 
 function _templateObject() {
@@ -801,7 +802,8 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 
-var StyledButtonBase = styled_components__WEBPACK_IMPORTED_MODULE_3__.default.div(_templateObject(), function (_ref) {
+
+var StyledButtonBase = styled_components__WEBPACK_IMPORTED_MODULE_4__.default.div(_templateObject(), function (_ref) {
   var fullWidth = _ref.fullWidth;
   return fullWidth ? '100%' : 'fit-content';
 }, function (_ref2) {
@@ -835,6 +837,9 @@ var ButtonBase = function ButtonBase(_ref6) {
   }, children);
 };
 
+StyledButtonBase.defaultProps = {
+  theme: _theme__WEBPACK_IMPORTED_MODULE_3__.default
+};
 ButtonBase.propTypes = {
   children: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().element.isRequired),
   fullWidth: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
