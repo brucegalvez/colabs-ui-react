@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import ButtonBase from '../ButtonBase/ButtonBase';
-import defaultTheme from '../defaultTheme';
+import defaultTheme from '../../defaultTheme';
 
 const StyledIconButton = styled.span`
   width: 2rem;

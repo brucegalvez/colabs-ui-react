@@ -782,7 +782,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _defaultTheme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../defaultTheme */ "./src/components/defaultTheme.js");
+/* harmony import */ var _defaultTheme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../defaultTheme */ "./src/defaultTheme.js");
 
 
 
@@ -871,7 +871,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _ButtonBase_ButtonBase__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../ButtonBase/ButtonBase */ "./src/components/ButtonBase/ButtonBase.jsx");
-/* harmony import */ var _defaultTheme__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../defaultTheme */ "./src/components/defaultTheme.js");
+/* harmony import */ var _defaultTheme__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../defaultTheme */ "./src/defaultTheme.js");
 
 
 
@@ -995,7 +995,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _ButtonBase_ButtonBase__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../ButtonBase/ButtonBase */ "./src/components/ButtonBase/ButtonBase.jsx");
-/* harmony import */ var _defaultTheme__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../defaultTheme */ "./src/components/defaultTheme.js");
+/* harmony import */ var _defaultTheme__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../defaultTheme */ "./src/defaultTheme.js");
 
 
 
@@ -1065,10 +1065,10 @@ IconButton.defaultProps = _objectSpread({
 
 /***/ }),
 
-/***/ "./src/components/defaultTheme.js":
-/*!****************************************!*\
-  !*** ./src/components/defaultTheme.js ***!
-  \****************************************/
+/***/ "./src/defaultTheme.js":
+/*!*****************************!*\
+  !*** ./src/defaultTheme.js ***!
+  \*****************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
 /*! other exports [not provided] [no usage info] */

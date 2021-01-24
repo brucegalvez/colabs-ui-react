@@ -1,4 +1,5 @@
 const path = require('path');
+
 module.exports = {
   title: 'colabs-ui-react',
   showSidebar: true,

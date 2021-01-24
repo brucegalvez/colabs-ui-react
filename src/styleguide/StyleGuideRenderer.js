@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import theme from '../components/defaultTheme';
+import theme from '../defaultTheme';
 
 const StyledStyleGuideRenderer = styled.div`
   > .wrapper {
