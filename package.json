@@ -57,6 +57,7 @@
     "/dist"
   ],
   "dependencies": {
+    "babel-plugin-styled-components": "^1.12.0",
     "lottie-web": "^5.7.5",
     "styled-components": "^5.2.1"
   }
