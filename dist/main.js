@@ -784,7 +784,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../theme */ "./src/theme.js");
+/* harmony import */ var _defaultTheme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../defaultTheme */ "./src/components/defaultTheme.js");
 
 
 function _templateObject() {
@@ -838,7 +838,7 @@ var ButtonBase = function ButtonBase(_ref6) {
 };
 
 StyledButtonBase.defaultProps = {
-  theme: _theme__WEBPACK_IMPORTED_MODULE_3__.default
+  theme: _defaultTheme__WEBPACK_IMPORTED_MODULE_3__.default
 };
 ButtonBase.propTypes = {
   children: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().element.isRequired),
@@ -876,7 +876,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _ButtonBase_ButtonBase__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../ButtonBase/ButtonBase */ "./src/components/ButtonBase/ButtonBase.jsx");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../theme */ "./src/theme.js");
+/* harmony import */ var _defaultTheme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../defaultTheme */ "./src/components/defaultTheme.js");
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -956,7 +956,7 @@ var Button = function Button(_ref7) {
 };
 
 StyledButton.defaultProps = {
-  theme: _theme__WEBPACK_IMPORTED_MODULE_4__.default
+  theme: _defaultTheme__WEBPACK_IMPORTED_MODULE_4__.default
 };
 Button.propTypes = _objectSpread({
   text: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
@@ -997,7 +997,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _ButtonBase_ButtonBase__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../ButtonBase/ButtonBase */ "./src/components/ButtonBase/ButtonBase.jsx");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../theme */ "./src/theme.js");
+/* harmony import */ var _defaultTheme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../defaultTheme */ "./src/components/defaultTheme.js");
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -1057,7 +1057,7 @@ var IconButton = function IconButton(_ref5) {
 };
 
 StyledIconButton.defaultProps = {
-  theme: _theme__WEBPACK_IMPORTED_MODULE_4__.default
+  theme: _defaultTheme__WEBPACK_IMPORTED_MODULE_4__.default
 };
 IconButton.propTypes = _objectSpread({
   children: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().element.isRequired),
@@ -1072,34 +1072,10 @@ IconButton.defaultProps = _objectSpread({
 
 /***/ }),
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! namespace exports */
-/*! export Button [provided] [maybe used in main (runtime-defined)] [usage prevents renaming] -> ./src/components/Button/Button.jsx .default */
-/*! export IconButton [provided] [maybe used in main (runtime-defined)] [usage prevents renaming] -> ./src/components/IconButton/IconButton.jsx .default */
-/*! other exports [not provided] [maybe used in main (runtime-defined)] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.d, __webpack_require__.r, __webpack_require__.* */
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Button": function() { return /* reexport safe */ _components_Button_Button__WEBPACK_IMPORTED_MODULE_0__.default; },
-/* harmony export */   "IconButton": function() { return /* reexport safe */ _components_IconButton_IconButton__WEBPACK_IMPORTED_MODULE_1__.default; }
-/* harmony export */ });
-/* harmony import */ var _components_Button_Button__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Button/Button */ "./src/components/Button/Button.jsx");
-/* harmony import */ var _components_IconButton_IconButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/IconButton/IconButton */ "./src/components/IconButton/IconButton.jsx");
-
-
-
-/***/ }),
-
-/***/ "./src/theme.js":
-/*!**********************!*\
-  !*** ./src/theme.js ***!
-  \**********************/
+/***/ "./src/components/defaultTheme.js":
+/*!****************************************!*\
+  !*** ./src/components/defaultTheme.js ***!
+  \****************************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
 /*! other exports [not provided] [no usage info] */
@@ -1142,6 +1118,30 @@ __webpack_require__.r(__webpack_exports__);
     xl: '(max-width: 1920px)'
   }
 });
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! namespace exports */
+/*! export Button [provided] [maybe used in main (runtime-defined)] [usage prevents renaming] -> ./src/components/Button/Button.jsx .default */
+/*! export IconButton [provided] [maybe used in main (runtime-defined)] [usage prevents renaming] -> ./src/components/IconButton/IconButton.jsx .default */
+/*! other exports [not provided] [maybe used in main (runtime-defined)] */
+/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.d, __webpack_require__.r, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Button": function() { return /* reexport safe */ _components_Button_Button__WEBPACK_IMPORTED_MODULE_0__.default; },
+/* harmony export */   "IconButton": function() { return /* reexport safe */ _components_IconButton_IconButton__WEBPACK_IMPORTED_MODULE_1__.default; }
+/* harmony export */ });
+/* harmony import */ var _components_Button_Button__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Button/Button */ "./src/components/Button/Button.jsx");
+/* harmony import */ var _components_IconButton_IconButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/IconButton/IconButton */ "./src/components/IconButton/IconButton.jsx");
+
+
 
 /***/ }),
 

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import ButtonBase from '../ButtonBase/ButtonBase';
-import defaultTheme from '../../theme';
+import defaultTheme from '../defaultTheme';
 
 const StyledButton = styled.div`
   width: 100%;
