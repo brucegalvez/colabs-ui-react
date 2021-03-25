@@ -1,3 +1,3 @@
 ```jsx
-<ButtonBase title="test" />
+<ButtonBase title="testing" />
 ```
