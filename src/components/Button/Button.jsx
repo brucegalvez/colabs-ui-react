@@ -49,7 +49,7 @@ const StyledButton = styled.div`
 const Button = ({
   text,
   icon,
-  handleClick,
+  onClick,
   color,
   iconPos,
   fullWidth,
@@ -59,7 +59,7 @@ const Button = ({
 }) => {
   return (
     <ButtonBase
-      onClick={disable ? '' : handleClick}
+      onClick={disable ? '' : onClick}
       disable={disable}
       size={size}
       fullWidth={fullWidth}
@@ -82,7 +82,7 @@ Button.propTypes = {
   color: PropTypes.string,
   iconPos: PropTypes.oneOf(['right', 'left']),
   icon: PropTypes.element,
-  handleClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func.isRequired,
   type: PropTypes.string,
   ...ButtonBase.propTypes,
 };

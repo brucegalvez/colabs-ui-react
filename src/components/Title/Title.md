@@ -1,3 +1,0 @@
-```jsx
-<Title text="test" />
-```
