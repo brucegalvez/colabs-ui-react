@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import theme from '../defaultTheme';
-import CssBaseline from '../utils/CssBaseline/CssBaseline';
+import CssBaseline from '../components/CssBaseline/CssBaseline';
 
 const StyledStyleGuideRenderer = styled.div`
   > .wrapper {
