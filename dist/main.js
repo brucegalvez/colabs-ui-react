@@ -1161,7 +1161,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  @font-face {\n    font-family: 'TTNormsRegular';\n    src: local('TTNorms Regular'), url(./fonts/TT-Norms/TTNorms-Regular.woff2) format('woff2');\n  }\n  @font-face {\n    font-family: 'TTNormsMedium';\n    src: local('TTNorms Medium'), url(fonts/TT-Norms/TTNorms-Medium.woff2) format('woff2');\n  }\n  @font-face {\n    font-family: 'TTNormsLight';\n    src: local('TTNorms Light'), url(fonts/TT-Norms/TTNorms-Light.woff2) format('woff2');\n  }\n  @font-face {\n    font-family: 'TTNormsBlack';\n    src: local('TTNorms Black'), url(fonts/TT-Norms/TTNorms-Black.woff2) format('woff2');\n  }\n  @font-face {\n    font-family: 'TTNormsBold';\n    src: local('TTNorms Bold'), url(fonts/TT-Norms/TTNorms-Bold.woff2) format('woff2');\n    font-style: normal;\n  }\n  @font-face {\n    font-family: 'TTNormsItalic';\n    src: local('TTNorms Italic'), url(fonts/TT-Norms/TTNorms-Italic.woff2) format('woff2');\n    font-style: normal;\n  }\n  @font-face {\n    font-family: 'TTNormsMediumItalic';\n    src: local('TTNorms Medium Italic'), url(fonts/TT-Norms/TTNorms-MediumItalic.woff2) format('woff2');\n    font-style: normal;\n  }\n* {\n    font-family: ", ";\n    font-size: 1rem;\n    font-weight: normal;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  @font-face {\n    font-family: 'TTNormsRegular';\n    src: local('TTNorms Regular'), url(../../../assets/fonts/TT-Norms/TTNorms-Regular.woff2) format('woff2');\n  }\n  @font-face {\n    font-family: 'TTNormsMedium';\n    src: local('TTNorms Medium'), url(../../../assets/fonts/TT-Norms/TTNorms-Medium.woff2) format('woff2');\n  }\n  @font-face {\n    font-family: 'TTNormsLight';\n    src: local('TTNorms Light'), url(../../../assets/fonts/TT-Norms/TTNorms-Light.woff2) format('woff2');\n  }\n  @font-face {\n    font-family: 'TTNormsBlack';\n    src: local('TTNorms Black'), url(../../../assets/fonts/TT-Norms/TTNorms-Black.woff2) format('woff2');\n  }\n  @font-face {\n    font-family: 'TTNormsBold';\n    src: local('TTNorms Bold'), url(../../../assets/fonts/TT-Norms/TTNorms-Bold.woff2) format('woff2');\n    font-style: normal;\n  }\n  @font-face {\n    font-family: 'TTNormsItalic';\n    src: local('TTNorms Italic'), url(../../../assets/fonts/TT-Norms/TTNorms-Italic.woff2) format('woff2');\n    font-style: normal;\n  }\n  @font-face {\n    font-family: 'TTNormsMediumItalic';\n    src: local('TTNorms Medium Italic'), url(../../../assets/fonts/TT-Norms/TTNorms-MediumItalic.woff2) format('woff2');\n    font-style: normal;\n  }\n* {\n    font-family: \"TTNormsRegular\", \"Arial\", \"Helvetica\", \"sans-serif\";\n    font-variant-ligatures: none;\n    font-size: 1rem;\n    font-weight: normal;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1174,10 +1174,7 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 
-var CssBaseline = (0,styled_components__WEBPACK_IMPORTED_MODULE_2__.createGlobalStyle)(_templateObject(), function (_ref) {
-  var theme = _ref.theme;
-  return theme.font.main.regular;
-});
+var CssBaseline = (0,styled_components__WEBPACK_IMPORTED_MODULE_2__.createGlobalStyle)(_templateObject());
 /* harmony default export */ __webpack_exports__["default"] = (CssBaseline);
 
 /***/ }),
@@ -3589,9 +3586,9 @@ for (var COLLECTION_NAME in DOMIterables) {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./src/utils/CssBaseline/normalize.css":
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./src/utils/CssBaseline/normalize.css":
 /*!***************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./src/utils/CssBaseline/normalize.css ***!
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./src/utils/CssBaseline/normalize.css ***!
   \***************************************************************************************************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -4202,7 +4199,7 @@ module.exports = function shallowEqual(objA, objB, compare, compareContext) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_normalize_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./normalize.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./src/utils/CssBaseline/normalize.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_3_use_1_normalize_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./normalize.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./src/utils/CssBaseline/normalize.css");
 
             
 
@@ -4211,11 +4208,11 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_normalize_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_3_use_1_normalize_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_normalize_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+/* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_3_use_1_normalize_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
 
 /***/ }),
 

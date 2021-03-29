@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import theme from '../defaultTheme';
+import CssBaseline from '../utils/CssBaseline/CssBaseline';
 
 const StyledStyleGuideRenderer = styled.div`
   > .wrapper {
@@ -46,6 +47,7 @@ const StyleGuideRenderer = ({
   // hasSidebar,
 }) => (
   <StyledStyleGuideRenderer>
+    <CssBaseline />
     <main className="wrapper">
       {/* {hasSidebar && ( */}
       <div className="sidebar">
